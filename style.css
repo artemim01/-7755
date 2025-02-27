@@ -4,6 +4,7 @@ body {
 }
 header{
     background-color: black;
+    display: flex;
 }
 .logo{
     width: 107px;
@@ -20,9 +21,9 @@ header{
 
 }
 nav{
-   position: relative;
-   left: 150px;
-   bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
 }
 section{
     margin: 40px;
@@ -34,11 +35,12 @@ article{
 .photo{
     width: 225px;
     height: 232px;
+    display: block;
     background-color: black;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
 }
 footer{
     background-color: black;
@@ -48,15 +50,14 @@ footer{
 }
 .d{
     text-decoration: none;
-    color: black;
-    background-color: white;
-    position: relative;
-    bottom: 45px;
-    left: 35px;
+    color: white;
+    background-color: black;
+    display: block;
     font-size: 25px;
     padding: 7px;
     padding-left:30px ;
     padding-right: 30px;
+
 }
 .header:hover{
     background-color: orange;
@@ -74,5 +75,14 @@ footer{
 .header:focus{
     background-color: blue;
 }
-
+h3{
+    background-color: black;
+    color: white;
+}
+p{
+    background-color: black;
+    display: block;
+    color: beige;
+    margin: 0px;
+}
 
